@@ -1,0 +1,45 @@
+
+body{
+    background-color: #bdbdbd;
+}
+.bottom-line{
+height: 10px;
+    color: teal;
+}
+footer{
+    background-color: #707070;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   min-height: 50px;
+   border-top: 5px solid teal;
+}
+.container{
+    background-color: whitesmoke;
+   padding: 20px;
+    margin-top: 20px;
+}
+.name{
+    color: whitesmoke;
+    background-color: teal;
+}
+hr{
+    font-size: 20px;
+}
+h1{
+    color: teal;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+.name{
+    font-size: 30px;
+    background-color: teal;
+    color: white;
+}
+.submit-btn{
+    background-color: teal;
+    color: white;
+}
