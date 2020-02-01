@@ -43,3 +43,9 @@ h1{
     background-color: teal;
     color: white;
 }
+
+.picture{
+    height: 250px;
+    width: 180px;
+    float: left;
+}
