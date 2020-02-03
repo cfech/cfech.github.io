@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Head of Document-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,59 +13,86 @@
     <title>Contact</title>
 </head>
 
+<!--Body of Document-->
+
 <body>
-    <!--Nav bar-->
+
+    <!--Nav Bar-->
+
     <header>
 
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top justify-content-end">
-            <a class="navbar-brand justify-content-start" href="#"><span class="name" >Connor Fech</span></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand namebox ml-5" href="index.html">Connor Fech</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div class="navbar" id="navbarSupportedContent">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-
     </header>
-    <!--Form-->
+
+    <!--Contact Form-->
+
     <main class="container">
         <section class="row">
-            <div class="col-6 offset-1">
-
-                <form>
-                    <h1>Contact</h1>
-                    <hr>
-                    <div class="form-group">
-                        <label for="exmapleFormControlInput1">Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Bob">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="button" class="btn submit-btn">Submit</button>
-                </form>
+            <div class="col-md-8 mt-4 card">
+                <div class="card-body">
+                    <form>
+                        <h1>Contact</h1>
+                        <hr>
+                        <div class="form-group">
+                            <label for="exmapleFormControlInput1">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Jimmy John">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Anything you would want me to know"></textarea>
+                        </div>
+                        <button type="button" class="btn submit-btn">Submit</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
+
+    <!-- Footer-->
+
     <footer>
         @copyright
     </footer>
+
+    <!--Bootstrap Javascript-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
