@@ -95,3 +95,7 @@ color: white;
 #passwordPic{
     height: 297px;
 }
+#multipleChoiceQuiz{
+    height: 297px;
+    object-fit: cover;
+}
