@@ -88,15 +88,16 @@ hr {
     font-size: 20px;
     margin-right: -20px;
 }
+
 a {
-color: white;
+    color: white;
 }
 
-#passwordPic{
+#passwordPic {
     height: 297px;
 }
-#dailyPlanner,
-#multipleChoiceQuiz{
+
+#dailyPlanner, #multipleChoiceQuiz {
     height: 297px;
     object-fit: cover;
 }
