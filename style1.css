@@ -93,11 +93,11 @@ a {
     color: white;
 }
 
-#passwordPic {
+#passwordPic, #openWeather  {
     height: 297px;
 }
 
-#dailyPlanner, #multipleChoiceQuiz {
+#dailyPlanner, #multipleChoiceQuiz{
     height: 297px;
     object-fit: cover;
 }
