@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style1.css">
-    <title>About Me</title>
+    <title>Portfolio</title>
 </head>
 <!-- Body of Document -->
 
@@ -17,31 +17,31 @@
     <header>
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand namebox ml-5" href="index.html">Connor Fech</a>
+            <a class="navbar-brand namebox ml-lg-5 ml-xs-0" href="index.html">Connor Fech</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+                    <li class="nav-item ">
+                        <a class="nav-link text-center" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link text-center" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </nav>
     </header>
     <!-- Main Container of Page -->
     <main class="container ">
         <section class="row">
-            <div class="col-md-8 mt-4 card">
+            <div class="col-md-7 mt-4 mr-md-5 card mb-4 col-xs-12 mr-xs-0">
                 <div class="card-body">
                     <h1>About Me</h1>
                     <hr class="lineBreak">
@@ -63,15 +63,129 @@
                     </p>
                 </div>
             </div>
+
+            <section class="card col-md-4 ml-md-4 mt-4 col-xs-12 ml-xs-0 mb-4">
+
+                <h1 class="linksH1">Links</h1>
+                <hr>
+                <!--Resume BTN-->
+                <div class="row  githubDiv">
+                    <form action="https://drive.google.com/file/d/1ltxgfq1CNSkXch181_Hzef6qDg9bc2Ej/view?usp=sharing"
+                        class="col-12 githubTitle" target="_blank">
+                        <input type="submit" id="submitBtn" value="Resume" />
+                    </form>
+                </div>
+
+                <!--Github BTN-->
+                <div class="row  githubDiv">
+                    <form action="https://github.com/cfech" class="col-12 githubTitle" target="_blank">
+                        <input type="submit" id="submitBtn" value="Github" />
+                    </form>
+                </div>
+
+                <!--LinkedInn BTN-->
+                <div class="row  githubDiv">
+                    <form action="https://www.linkedin.com/in/connor-fech-99936514a" class="col-12 githubTitle" target="_blank">
+                        <input type="submit" id="submitBtn" value="LinkedInn" />
+                    </form>
+                </div>
+
+                <!--Contact Info-->
+                <h1>Contact</h1>
+                <hr>
+                <div>
+                    <p> Email: Cfech44@gmail.com</p>
+                </div>
+            </section>
+        </section>
+
+  
+        <section class="row">
+            <div class="col-md-12 mt-4 col-xs-12 card">
+                <div class="card-body">
+                    <h1>Portfolio</h1>
+                    <hr>
+                    <section class="row justify-content-center">
+
+                        <!-- Project One Card -->
+                        <a href="" class="card bg-dark text-white col-md-10 mb-4 mt-4 p-0 my-2 mx-2 ml-4"
+                            id="hoverEffectBig">
+                            <img src="https://via.placeholder.com/300x100" id="Project1" class="card-img"
+                                alt="Project1">
+                            <div class="card-img-overlay">
+                                <p class="card-text text-center text-block">Whats Happening Philly?</p>
+                            </div>
+                        </a>
+
+                        <!-- Multiple Choice Quiz Card
+                        <a href="https://cfech.github.io/MultipleChoiceQuiz/"
+                            class="card bg-dark text-white col-md-5 mb-4 mt-4 p-0 my-2 mx-2 ml-4" id="hoverEffect">
+                            <img src="assets/questionsfull copy.png" id="multipleChoiceQuiz" class="card-img"
+                                alt="Multiple Choice Quiz">
+                            <div class="card-img-overlay">
+                                <p class="card-text text-center text-block">Multiple Choice Quiz</p>
+                            </div>
+                        </a> -->
+                    </section>
+
+                    <!--Homework Section-->
+                    <section class="row justify-content-center">
+
+                        <!--Daily Planner Card -->
+                        <a href="https://cfech.github.io/DailyPlanner/" target="_blank"
+                            class="card bg-dark text-white col-md-3 mb-4 mt-4 p-0 my-2 mx-2 ml-4" id="hoverEffect">
+                            <img src="assets/fullsize copy.png" id="dailyPlanner" class="card-img" alt="Daily Planner">
+                            <div class="card-img-overlay">
+                                <p class="card-text text-center text-block">Daily Planner</p>
+                            </div>
+                        </a>
+
+                        <!--Open Weather Card -->
+                        <a href="https://cfech.github.io/OpenWeatherApi/"
+                            class="card bg-dark text-white col-md-3 mb-4 mt-4 p-0 my-2 mx-2 ml-4" id="hoverEffect">
+                            <img src="assets/openweatherfullsize copy.png" id="openWeather" class="card-img"
+                                alt="Open Weather App">
+                            <div class="card-img-overlay">
+                                <p class="card-text text-center text-block">Open Weather</p>
+                            </div>
+                        </a>
+
+                        <!--Random Password Generator Card-->
+                        <a href="https://cfech.github.io/RandomPasswordGenerator/"
+                            class="card bg-dark text-white col-md-3 mb-4 mt-4 p-0 my-2 mx-2 ml-4" id="hoverEffect">
+                            <img src="assets/password1.png" class="card-img" id="randomPasswordPic"
+                                alt="Random Password Generator">
+                            <div class="card-img-overlay">
+                                <p class="card-text text-center text-block">Random </p>
+                            </div>
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="col-md-12 mt-4 col-xs-12 card">
+                <div class="card-body">
+                <h1 style="text-align: center;">Github Repository Links</h1>
+                <p id="identifier">What's Happening Philly?: &ensp;&ensp; <a href="https://github.com/cfech/Project1"
+                        id="githubLink">https://github.com/cfech/Project1</a></p>
+                <p id="identifier">Daily Planner: &ensp;&ensp; <a href="https://github.com/cfech/DailyPlanner"
+                        id="githubLink">https://github.com/cfech/DailyPlanner</a></p>
+                <p id="identifier">Open Weather Api &ensp;&ensp; <a href="https://github.com/cfech/OpenWeatherApi"
+                        id="githubLink">https://github.com/cfech/OpenWeatherApi</a></p>
+                <p id="identifier">Random Password Generator &ensp;&ensp; <a
+                        href="https://github.com/cfech/RandomPasswordGenerator"
+                        id="githubLink">https://github.com/cfech/RandomPasswordGenerator</a></p>
+           </div>
+                    </div>
         </section>
     </main>
+
     <!-- Footer -->
-    <footer>
-        @copyright
-    </footer>
-
-    <!-- Bootstrap Javascript-->
-
+    <footer> </footer>
+    
+    <!-- Scripts-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

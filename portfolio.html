@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Head of Document -->
 
 <head>
     <meta charset="UTF-8">
@@ -11,13 +10,15 @@
     <link rel="stylesheet" href="style1.css">
     <title>Portfolio</title>
 </head>
+
 <!-- Body of Document -->
 
 <body>
     <header>
+
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand namebox ml-5" href="index.html">Connor Fech</a>
+            <a class="navbar-brand namebox ml-md-5  ml-xs-0" href="index.html">Connor Fech</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,88 +27,108 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link text-center" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link text-center" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>
     </header>
+
     <!--Main Container of Page-->
     <main class="container">
         <section class="row">
-            <div class="col-md-8 mt-4 col-xs-12 card">
+            <div class="col-md-12 mt-4 col-xs-12 card">
                 <div class="card-body">
                     <h1>Portfolio</h1>
-                    <!--Line Break-->
                     <hr>
-                    <section class="row">
-                        <!--Random Password Generator Card-->
-                        <a href="https://cfech.github.io/RandomPasswordGenerator/"
-                            class="card bg-dark text-white col-md-5 mb-4 mt-4 p-0 my-2 mx-2 ml-4">
-                            <img src="assets/password1.png" id="passwordPic" class="card-img"
-                                alt="Random Password Generator">
+                    <section class="row justify-content-center">
+
+                        <!-- Project One Card -->
+                        <a href="" class="card bg-dark text-white col-md-10 mb-4 mt-4 p-0 my-2 mx-2 ml-4"
+                            id="hoverEffectBig">
+                            <img src="https://via.placeholder.com/300x100" id="Project1" class="card-img"
+                                alt="Project1">
                             <div class="card-img-overlay">
-                                <p class="card-text text-center text-block">Random Password Generator</p>
+                                <p class="card-text text-center text-block">Whats Happening Philly?</p>
                             </div>
                         </a>
-                        <!--Multiple Choice Quiz Card-->
+
+                        <!-- Multiple Choice Quiz Card
                         <a href="https://cfech.github.io/MultipleChoiceQuiz/"
-                            class="card bg-dark text-white col-md-5 mb-4 mt-4 p-0 my-2 mx-2 ml-4">
+                            class="card bg-dark text-white col-md-5 mb-4 mt-4 p-0 my-2 mx-2 ml-4" id="hoverEffect">
                             <img src="assets/questionsfull copy.png" id="multipleChoiceQuiz" class="card-img"
                                 alt="Multiple Choice Quiz">
                             <div class="card-img-overlay">
                                 <p class="card-text text-center text-block">Multiple Choice Quiz</p>
                             </div>
-                        </a>
+                        </a> -->
                     </section>
 
-                    <section class="row">
-                         <!--Daily Planner Card -->
+                    <!--Homework Section-->
+                    <section class="row justify-content-center">
+
+                        <!--Daily Planner Card -->
                         <a href="https://cfech.github.io/DailyPlanner/"
-                            class="card bg-dark text-white col-md-5 mb-4 mt-4 p-0 my-2 mx-2 ml-4">
+                            class="card bg-dark text-white col-md-3 mb-4 mt-4 p-0 my-2 mx-2 ml-4" id="hoverEffect">
                             <img src="assets/fullsize copy.png" id="dailyPlanner" class="card-img" alt="Daily Planner">
                             <div class="card-img-overlay">
                                 <p class="card-text text-center text-block">Daily Planner</p>
                             </div>
                         </a>
 
-                         <!--Daily Planner Card -->
-                        <a href="https://cfech.github.io/OpenWeatherApi/" 
-                        class="card bg-dark text-white col-md-5 mb-4 mt-4 p-0 my-2 mx-2 ml-4">
-                            <img src="assets/openweatherfullsize copy.png" id="openWeather"class="card-img" alt="Open Weather App">
+                        <!--Open Weather Card -->
+                        <a href="https://cfech.github.io/OpenWeatherApi/"
+                            class="card bg-dark text-white col-md-3 mb-4 mt-4 p-0 my-2 mx-2 ml-4" id="hoverEffect">
+                            <img src="assets/openweatherfullsize copy.png" id="openWeather" class="card-img"
+                                alt="Open Weather App">
                             <div class="card-img-overlay">
                                 <p class="card-text text-center text-block">Open Weather</p>
                             </div>
                         </a>
-                    </section>
 
-                    <section class="row">
-                        <div class="card bg-dark text-white col-md-5 mb-4 mt-4 p-0 my-2 mx-2 ml-4">
-                            <img src="https://via.placeholder.com/150" class="card-img" alt="...">
+                        <!--Random Password Generator Card-->
+                        <a href="https://cfech.github.io/RandomPasswordGenerator/"
+                            class="card bg-dark text-white col-md-3 mb-4 mt-4 p-0 my-2 mx-2 ml-4" id="hoverEffect">
+                            <img src="assets/password1.png" class="card-img" id="randomPasswordPic"
+                                alt="Random Password Generator">
                             <div class="card-img-overlay">
-                                <p class="card-text text-center text-block">Project 4</p>
+                                <p class="card-text text-center text-block">Random </p>
                             </div>
-                        </div>
+                        </a>
                     </section>
-
                 </div>
             </div>
         </section>
+
+        <section class="row">
+            <div class="col-md-12 mt-4 col-xs-12 card">
+                <div class="card-body">
+                <h1 style="text-align: center;">Github Repository Links</h1>
+                <p id="identifier">What's Happening Philly?: &ensp;&ensp; <a href="https://github.com/cfech/Project1"
+                        id="githubLink">https://github.com/cfech/Project1</a></p>
+                <p id="identifier">Daily Planner: &ensp;&ensp; <a href="https://github.com/cfech/DailyPlanner"
+                        id="githubLink">https://github.com/cfech/DailyPlanner</a></p>
+                <p id="identifier">Open Weather Api &ensp;&ensp; <a href="https://github.com/cfech/OpenWeatherApi"
+                        id="githubLink">https://github.com/cfech/OpenWeatherApi</a></p>
+                <p id="identifier">Random Password Generator &ensp;&ensp; <a
+                        href="https://github.com/cfech/RandomPasswordGenerator"
+                        id="githubLink">https://github.com/cfech/RandomPasswordGenerator</a></p>
+           </div>
+                    </div>
+        </section>
     </main>
-    <br>
     <br>
 
     <!--Footer-->
-    <footer>
-        @copyright
-    </footer>
-    <!-- Boostrap Javascript-->
+    <footer> </footer>
+
+    <!-- Scripts-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

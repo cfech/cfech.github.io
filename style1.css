@@ -1,51 +1,57 @@
 body {
-    background-color: #d3d3d3;
+    background-color: #8AB9FF;
 }
 
 footer {
-    background-color: #707070;
-    position: fixed;
+    background-color: #6B7380;
+    
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
     min-height: 50px;
-    border-top: 5px solid #4db6ac;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
+
+
 h1 {
-    color: #4db6ac;
+    color: white;
     font-family: sans-serif;
     font-size: 32px;
 }
 
 .submit-btn {
-    background-color: #4db6ac;
+    background-color: #6B7380;
     color: white;
+    
 }
-
+#submitBtn{
+    border-radius: 15px;
+}
 .picture {
     height: 250px;
     width: 180px;
 }
 
 .namebox {
-    background-color: #4db6ac;
+    background-color: #3468B8;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white !important;
     font-size: 20px;
     padding: 20px;
+    margin-left: -20px;
 }
 
 .navbar {
     padding-bottom: 0px;
     padding-top: 0px;
+    background-color: rgb(107, 115, 126) !important;
 }
 
 p {
-    color: grey;
+    color: white;
 }
 
 main {
@@ -75,12 +81,16 @@ hr {
 .btn-primary {
     width: 100%;
 }
+.btn-primary :hover{
+   border-color: white;
+ 
+}
 
 .text-block {
     position: absolute;
-    bottom: 20px;
+
     right: 20px;
-    background-color: #4db6ac;
+    background-color: #6B7380;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -93,11 +103,88 @@ a {
     color: white;
 }
 
-#passwordPic, #openWeather  {
-    height: 297px;
+#randomPasswordPic ,#dailyPlanner, #openWeather, #Project1  {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    overflow: hidden;
 }
 
-#dailyPlanner, #multipleChoiceQuiz{
-    height: 297px;
-    object-fit: cover;
+#randomPasswordPic{
+    height: 50px;
+}
+
+
+.linkDiv{
+    background-color: white;
+}
+
+.aboutMeLink{
+color: black;
+
+}
+
+.githubDiv{
+margin: 10px;
+padding: 10px;
+}
+
+.linkTitle{
+    font-size: 26px;
+    color: black;
+}
+.githubTitle{
+    padding: 0;
+}
+
+#submitBtn{
+    width: 100%;
+    background-color: whitesmoke !important;
+
+}
+
+#submitBtn:hover{
+border-width: 5px;
+border: solid;
+background-color: #6B7380 !important;
+color: white;
+
+}
+#hoverEffect{
+    height: 200px;
+}
+
+#hoverEffect:hover{
+    border: solid;
+    border-color: #EB792A;
+    border-width: 5px;
+    margin: 20px;
+}
+.card{
+    background-color: rgb(56, 106, 186) !important;
+}
+.nav-link{
+color: whitesmoke !important;
+}
+
+#hoverEffectBig  :hover{
+    border: solid;
+    border-color: rgb(211, 142, 81);
+    border-width: 5px;
+
+}
+.linksH1{
+    margin-top: 18px;
+}
+
+#identifier{
+    font-size: 20px;
+    text-align: center;
+}
+#githubLink:hover{
+    color: white;
+}
+#githubLink{
+    text-align: center;
 }
