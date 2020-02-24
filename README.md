@@ -1,6 +1,6 @@
-# cfech.github.io
-In this project I created an about me page https://cfech.github.io/, consisting of a summary about myself and links to my portfolio and a contact form.
-In order to complete this I used a combination of HTML5, CSS3 and Bootstrap. I took some basic pieces of a website, such as a navbar, forms, and cards, and added my own styling as well to make the web pages look as close to the specifications as I could get them. 
+## Portfolio
+This is my current portfolio. I used a combination of HTML CSS and Bootstrap 4 to make a fully responsive web page. It includes an about me section and picture, some links to my github page, current resume and linkedInn, as well as a portfolio section where my previous projects are displayed. I have also included the links to the github repositories as well. 
+https://cfech.github.io/
 ![Full size bio ](assets/fullsize1.png)
 ![Full size portfolio](assets/fullSize2.png)
 ![Full size repository links](assets/fullSize3.png)
