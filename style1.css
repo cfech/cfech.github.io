@@ -188,3 +188,30 @@ color: whitesmoke !important;
 #githubLink{
     text-align: center;
 }
+.carousel{
+
+    width: 80%;
+    padding: 20px;
+}
+.carouselPic{
+    height: 500px;
+    width: fit-content;
+}
+
+.carouselLabel{
+    background-color: black;
+    opacity: 50%
+    ;
+}
+.carouselTitle{
+    background-color: black;
+    opacity: 75%;
+
+
+
+
+}
+.projectLabel{
+    color: white;
+}
+
