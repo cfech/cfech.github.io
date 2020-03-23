@@ -14,8 +14,6 @@ footer {
     margin-top: 20px;
 }
 
-
-
 h1 {
     color: white;
     font-family: sans-serif;
@@ -217,4 +215,16 @@ color: whitesmoke !important;
 
 .readMeP{
 font-size: 18px;
+}
+
+.repoLink{
+    font-size: 20px;
+}
+
+.repoLinkA :hover{
+    color: red;
+}
+
+.repoDiv{
+ margin: 2px;
 }
