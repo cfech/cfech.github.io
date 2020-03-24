@@ -8,21 +8,21 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
+    color: ghostwhite;
     text-align: center;
     min-height: 50px;
     margin-top: 20px;
 }
 
 h1 {
-    color: white;
+    color: ghostwhite;
     font-family: sans-serif;
     font-size: 32px;
 }
 
 .submit-btn {
     background-color: #6B7380;
-    color: white;
+    color: ghostwhite;
     
 }
 #submitBtn{
@@ -36,10 +36,13 @@ h1 {
 .namebox {
     background-color: #3468B8;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white !important;
+    color: ghostwhite !important;
     font-size: 20px;
     padding: 20px;
     margin-left: -20px;
+    border: inset;
+    border-color: black;
+    border-width: 3px;
 }
 
 .navbar {
@@ -49,7 +52,7 @@ h1 {
 }
 
 p {
-    color: white;
+    color: ghostwhite;
 }
 
 main {
@@ -80,7 +83,7 @@ hr {
     width: 100%;
 }
 .btn-primary :hover{
-   border-color: white;
+   border-color: ghostwhite;
  
 }
 
@@ -89,7 +92,7 @@ hr {
 
     right: 20px;
     background-color: #6B7380;
-    color: white;
+    color: ghostwhite;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
@@ -98,7 +101,7 @@ hr {
 }
 
 a {
-    color: white;
+    color: ghostwhite;
 }
 
 #homeworkPic {
@@ -112,7 +115,7 @@ a {
 
 
 .linkDiv{
-    background-color: white;
+    background-color: ghostwhite;
 }
 
 .aboutMeLink{
@@ -143,7 +146,7 @@ padding: 10px;
 border-width: 5px;
 border: solid;
 background-color: #6B7380 !important;
-color: white;
+color: ghostwhite;
 
 }
 #hoverEffect{
@@ -179,7 +182,7 @@ color: whitesmoke !important;
     text-align: center;
 }
 #githubLink:hover{
-    color: white;
+    color: ghostwhite;
 }
 #githubLink{
     text-align: center;
@@ -206,7 +209,7 @@ color: whitesmoke !important;
 
 }
 .projectLabel{
-    color: white;
+    color: ghostwhite;
 }
 
 .readMeP{
@@ -223,4 +226,17 @@ font-size: 18px;
 
 .repoDiv{
  margin: 2px;
+}
+
+#aboutMeDiv{
+    border: double;
+    border-color: black;
+    border-width: 8px;
+
+}
+
+#projectDiv, #homeworkDiv{
+    border: solid;
+    border-color: black;
+    border-width: 3px;
 }
