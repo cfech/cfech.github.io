@@ -101,7 +101,7 @@ a {
     color: white;
 }
 
-#randomPasswordPic ,#dailyPlanner, #openWeather, #Project1, #multipleChoiceQuiz  {
+#homeworkPic {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
@@ -109,10 +109,6 @@ a {
     overflow: hidden;
 }
 
-
-#randomPasswordPic{
-    height: 50px;
-}
 
 
 .linkDiv{
